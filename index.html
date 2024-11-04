@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/main.css">
+    <title>Weather</title>
+</head>
+<body>
+
+    <div class="weather">
+        <form action="" class="form" id="form">
+            <input type="text" class="form_input" placeholder="Enter city name">
+            <button class="form_btn">
+                <img src="/img/ui/search.svg" alt="">
+            </button>
+        </form>
+
+        <div class="weather_info">
+            <img class="weather_img" src="/img/weather/clouds.svg" alt="weather">
+            <!-- <img class="weather_img" src="/img/weather/weather.svg" alt="weather"> -->
+            <div id="weatherTemp" class="weather_temp">0°c</div>
+            <div id="weatherCityName" class="weather_city">City</div>
+        </div>
+
+        <div class="weather_details">
+
+            <div class="details">
+                <img src="/img/ui/humidity.svg" alt="" class="details_img">
+                <div id="humidity" class="details_value">0%</div>
+                <div class="details_title">Humidity</div>
+            </div>
+            
+            <div class="details">
+                <img src="/img/ui/wind.svg" alt="" class="details_img">
+                <div id="windSpeed" class="details_value">0 km/h</div>
+                <div class="details_title">Wind Speed</div>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="/js/main.js"></script>
+</body>
+</html>
